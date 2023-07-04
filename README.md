@@ -60,6 +60,7 @@ To use the API, follow these steps:
 - HTML: Used for creating the structure and layout of the UI
 - CSS: Used for styling the calculator interface.
 - Python: API logic
+  
 ## Contributing
 
 Contributions to the Projects directory are welcome! If you have any improvements, additional projects, or bug fixes to suggest, feel free to submit a pull request. Please follow the contribution guidelines and code of conduct outlined in the repository.
