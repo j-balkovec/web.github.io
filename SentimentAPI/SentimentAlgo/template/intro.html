@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Intro</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>
+        TWITTER DATA ANALYTICS
+        <div class="subtitle">
+            <h2>By Jakob Balkovec</h2>
+        </div>
+    </h1>
+
+    <!-- Buttons -->
+    <div class="button-container">
+      <form action="/get_max_polarity" method="post">
+          <button id="getMaxButton" class="buttons" type="submit">MAX POLARITY</button>
+      </form>
+  
+      <form action="/get_min_polarity" method="post">
+          <button id="getMinButton" class="buttons" type="submit">MIN POLARITY</button>
+      </form>
+  
+      <form action="/view_data" method="post">
+          <button id="viewDataButton" class="buttons" type="submit">VIEW DATA</button>
+      </form>
+      
+      <form action="/acquire_data_set" method="post">
+        <button id="dataSetButton" class="buttons" type="submit">ACQUIRE DATASET</button>
+      </form>
+
+      <form action="/go_to_github" method="post">
+          <button id="githubButton" class="buttons" type="submit">GITHUB</button>
+      </form>
+  </div>
+  <div class="bottom-line"></div>
+  <div class="credits">
+    <h3>
+      <span class="bold-subtitle">Contributing:</span>
+      Contributions to the Projects directory are welcome! If you have any improvements, additional projects, or bug fixes to suggest, feel free to submit a pull request. Please follow the contribution guidelines and code of conduct outlined in the repository.<br><br>
+      
+      <span class="bold-subtitle">License:</span>
+      This project is licensed under the MIT License. You are free to use, modify, and distribute the code and projects within this directory.<br><br><br><br>
+      
+      <span class="bold-subtitle">Credits:</span>
+      <br><br><br><br>Jakob Balkovec<br>
+      Email: jakob.balkovec@gmail.com<br>
+    </h3>
+  </div>
+  </body>
+  </html>

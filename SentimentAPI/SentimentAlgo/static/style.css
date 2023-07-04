@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Body in intro.html*/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  /*color: #333;*/
+}
+
+/* Body in intro.html*/
+
+/* Buttons in intro.html, min.html, max.html, analyze.html*/
+
+.button-container {
+  margin-top: -75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row; /* Add this line to make the buttons align horizontally */
+}
+
+.buttons {
+  font-family: 'Martian Mono', monospace;
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: rgba(29, 161, 242, 1);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  width: 240px;
+  height: 50px;
+  margin: 5px 10px;
+}
+
+.buttons:hover {
+  background-color: #0D8DD9;
+}
+
+/* Buttons in intro.html, min.html, max.html, analyze.html*/
+
+
+/* Heading 1 in intro.html*/
+h1 {
+  /*background-color: #1DA1F2;*/
+  background-image: linear-gradient(to bottom right, rgba(29, 161, 242, 1), rgba(180, 210, 255, 0.6));
+  color: white;
+  font-weight: 800;
+  font-size: 75px;
+  font-family: 'Martian Mono', monospace;
+  text-align: center;
+  margin-top: 40px;
+  padding: 80px 50px;
+  border-radius: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+/* Heading 1 in intro.html*/
+
+/* Heading 2 in intro.html*/
+.subtitle {
+  font-size: 14px;
+}
+/* Heading 2 in intro.html*/
+
+/* Heading 4 in min.html, max.html*/
+
+h4 {
+  background-image: linear-gradient(to bottom right, rgba(29, 161, 242, 1), rgba(180, 210, 255, 0.6));
+  color: white;
+  font-weight: 800;
+  font-size: 45px;
+  font-family: 'Martian Mono', monospace;
+  text-align: center;
+  margin-top: 40px;
+  padding: 80px 50px;
+  border-radius: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* Heading 4 in min.html, max.html*/
+
+/* Table in analyze.html*/
+
+table {
+  width: 90%;
+  margin: 0 auto; /* Centers the table horizontally */
+  border-collapse: collapse;
+  margin-top: 20px;
+  border: 2px solid #000;
+  outline-offset: -2px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table-row {
+  font-weight: bold;
+  background-color: #f2f2f2;
+}
+
+.table-row-data {
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Additional styles for better readability */
+
+th {
+  background-color: #e6e6e6;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+td:first-child {
+  width: 10%;
+}
+
+td:last-child {
+  width: 15%;
+}
+
+/* Table in analyze.html*/
+
+/* Bottom line in intro.html*/
+
+.bottom-line {
+  border-bottom: 2px solid lightgrey;
+  margin-bottom: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-top: 40px;
+}
+
+/* Bottom line in intro.html*/
+
+
+/*Credits in intro.html*/
+.credits {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  color: lightgray;
+  width: 90%;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 70px;
+  margin-right: 30px;
+}
+/*Credits in intro.html*/
+
+
+/* Bold subtitle for credits in intro.html*/
+
+.bold-subtitle {
+  font-weight: bold;
+}
+
+/* Bold subtitle for credits in intro.html*/
+
+/* Pre in max.html*/
+
+pre {
+  padding: 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  white-space: pre-wrap;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Pre in max.html*/
+
+
+/* JSON data in max.html, min.html*/
+
+.json-data {
+  margin: 20px 50px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  font-family: "Courier New", Courier, monospace;
+}
+.json-data pre {
+  white-space: pre-wrap;
+}
+
+/* JSON data in max.html, min.html*/
+
+/*Display more button in analyze.html*/
+.center {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#loadMoreBtn button {
+  font-family: 'Martian Mono', monospace;
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: rgba(29, 161, 242, 1);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  width: 240px;
+  height: 50px;
+  margin: 5px 10px;
+}
+
+#loadMoreBtn button:hover {
+  background-color: #0D8DD9;
+}
+/*Display more button in analyze.html*/
+
+form {
+  text-align: center;
+  margin-top: 40px;
+}
+
+
+
+
