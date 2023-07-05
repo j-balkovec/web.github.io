@@ -1,0 +1,65 @@
+├── Martian_Mono
+│   ├── MartianMono-VariableFont_wdth,wght.ttf
+│   ├── OFL.txt
+│   ├── README.txt
+│   └── static
+│       ├── MartianMono-Bold.ttf
+│       ├── MartianMono-ExtraBold.ttf
+│       ├── MartianMono-ExtraLight.ttf
+│       ├── MartianMono-Light.ttf
+│       ├── MartianMono-Medium.ttf
+│       ├── MartianMono-Regular.ttf
+│       ├── MartianMono-SemiBold.ttf
+│       ├── MartianMono-Thin.ttf
+│       ├── MartianMono_Condensed-Bold.ttf
+│       ├── MartianMono_Condensed-ExtraBold.ttf
+│       ├── MartianMono_Condensed-ExtraLight.ttf
+│       ├── MartianMono_Condensed-Light.ttf
+│       ├── MartianMono_Condensed-Medium.ttf
+│       ├── MartianMono_Condensed-Regular.ttf
+│       ├── MartianMono_Condensed-SemiBold.ttf
+│       ├── MartianMono_Condensed-Thin.ttf
+│       ├── MartianMono_SemiCondensed-Bold.ttf
+│       ├── MartianMono_SemiCondensed-ExtraBold.ttf
+│       ├── MartianMono_SemiCondensed-ExtraLight.ttf
+│       ├── MartianMono_SemiCondensed-Light.ttf
+│       ├── MartianMono_SemiCondensed-Medium.ttf
+│       ├── MartianMono_SemiCondensed-Regular.ttf
+│       ├── MartianMono_SemiCondensed-SemiBold.ttf
+│       ├── MartianMono_SemiCondensed-Thin.ttf
+│       ├── MartianMono_SemiExpanded-Bold.ttf
+│       ├── MartianMono_SemiExpanded-ExtraBold.ttf
+│       ├── MartianMono_SemiExpanded-ExtraLight.ttf
+│       ├── MartianMono_SemiExpanded-Light.ttf
+│       ├── MartianMono_SemiExpanded-Medium.ttf
+│       ├── MartianMono_SemiExpanded-Regular.ttf
+│       ├── MartianMono_SemiExpanded-SemiBold.ttf
+│       └── MartianMono_SemiExpanded-Thin.ttf
+├── __pycache__
+│   ├── extremes.cpython-311.pyc
+│   ├── helper.cpython-311.pyc
+│   ├── main.cpython-311.pyc
+│   └── mock.cpython-311.pyc
+├── app.py
+├── data
+│   └── extremes.json
+├── documentation
+│   └── README.md
+├── extremes.py
+├── main.py
+├── mock_data
+│   ├── mock_l.csv
+│   ├── mock_m.csv
+│   ├── mock_s.csv
+│   ├── mock_xl.csv
+│   ├── mock_xs.csv
+│   └── twitter.csv
+├── out
+│   └── output.json
+├── static
+│   └── style.css
+└── template
+    ├── analyze.html
+    ├── intro.html
+    ├── max.html
+    └── min.html
