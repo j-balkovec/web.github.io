@@ -43,4 +43,4 @@ jobs:
         uses: actions/deploy-pages@v2
         with:
          target_branch: gh-pages
-         folder: j-balkovec/web.github.io/calculator
+         folder: .
