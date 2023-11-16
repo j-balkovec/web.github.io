@@ -22,25 +22,32 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Single deploy job since we're just deploying
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  deploy-sentimentalgo:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+      - name: Checkout SentimentAlgo
+        uses: actions/checkout@v2
         with:
-          # Upload entire repository
-          path: '.'
-      - name: Deploy to GitHub Pages
-        id: deployment
+          repository: j-balkovec/web.github.io/SentimentAlgo
+          ref: main  
+      - name: Deploy SentimentAlgo to GitHub Pages
         uses: actions/deploy-pages@v2
         with:
-         target_branch: main
-         folder: .
+          target_branch: main
+          folder: SentimentAlgo  
+          cleanup: false  
+
+  deploy-calculator:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout calculator
+        uses: actions/checkout@v2
+        with:
+          repository: j-balkovec/web.github.io/calculator
+          ref: main  
+      - name: Deploy calculator to GitHub Pages
+        uses: actions/deploy-pages@v2
+        with:
+          target_branch: main
+          folder: calculator  
+          cleanup: false
