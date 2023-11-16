@@ -28,8 +28,9 @@ jobs:
       - name: Checkout SentimentAlgo
         uses: actions/checkout@v2
         with:
-          repository: github.com/j-balkovec/web.github.io/tree/main/SentimentAlgo
-          ref: main  
+          repository: j-balkovec/web.github.io  
+          path: web.github.io/SentimentAlgo     # Subdirectory within the repository
+          ref: main  # or the branch you want to deploy
       - name: Deploy SentimentAlgo to GitHub Pages
         uses: actions/deploy-pages@v2
         with:
@@ -43,8 +44,9 @@ jobs:
       - name: Checkout calculator
         uses: actions/checkout@v2
         with:
-          repository: github.com/j-balkovec/web.github.io/tree/main/calculator
-          ref: main  
+          repository: j-balkovec/web.github.io  
+          path: web.github.io/calculator 
+          ref: main
       - name: Deploy calculator to GitHub Pages
         uses: actions/deploy-pages@v2
         with:
