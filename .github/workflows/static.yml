@@ -33,7 +33,7 @@ jobs:
       - name: Deploy SentimentAlgo to GitHub Pages
         uses: actions/deploy-pages@v2
         with:
-          target_branch: main
+          target_branch: gh-pages
           folder: SentimentAlgo  
           cleanup: false  
 
@@ -48,6 +48,6 @@ jobs:
       - name: Deploy calculator to GitHub Pages
         uses: actions/deploy-pages@v2
         with:
-          target_branch: main
+          target_branch: gh-pages
           folder: calculator  
           cleanup: false
